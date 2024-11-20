@@ -9,3 +9,5 @@ We are learning to make commits!
 Testing commit without best practices
 
 goodbye
+
+docs
