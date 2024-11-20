@@ -7,3 +7,5 @@ We are learning to make commits!
 3. git commit -m "adding ..." -- creates a commit
 
 Testing commit without best practices
+
+goodbye
