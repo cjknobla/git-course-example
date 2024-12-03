@@ -1,15 +1,13 @@
 # linting.py
+from dataclasses import dataclass
 
 """This file shows example linting errors"""
 MY_VARIABLE = 1
 
-
 class MyClass:
+    """Docstring for MyClass"""
     def __init__(self):
         self.my_variable = 1
-
-
-from dataclasses import dataclass
 
 
 def divide_numbers(a: int, b: float) -> float:

@@ -1,5 +1,6 @@
 {
     "pylint.path": [
         "pylint"
-    ]
+    ],
+    "pylint.enabled": true
 }
