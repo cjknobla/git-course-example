@@ -4,8 +4,10 @@ from dataclasses import dataclass
 """This file shows example linting errors"""
 MY_VARIABLE = 1
 
+
 class MyClass:
     """Docstring for MyClass"""
+
     def __init__(self):
         self.my_variable = 1
 
@@ -44,7 +46,10 @@ class Book:
     aaf: int
 
 
-my_string = "This is a very long string that should be split " + "into multiple lines to avoid pylint error C0301"
+my_string = (
+    "This is a very long string that should be split "
+    + "into multiple lines to avoid pylint error C0301"
+)
 
 
 my_string = "Hello, World!   "
