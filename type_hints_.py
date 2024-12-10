@@ -54,4 +54,4 @@ def make_list_of_addable_entity(
 ) -> List[TAddableEntity]:
     return [a, b]
 
-print("test")
+print("test2")
